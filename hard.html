@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/CSS/LightStyle.css">
+    <title>GeoQuiz</title>
+</head>
+<body>
+  <div id="loading">
+    <h1>O jogo já vai começar...</h1>
+  </div>
+  
+  <div id="conteudo" style="display: none;">
+    <div id="quiz-container">
+      
+        <div id="question-container">
+          <p class="pontos">0/0</p>
+          <h1>Que país é esse?</h1>
+          <div class="flag-container">
+            
+          </div>
+        </div>
+        <div id="answer-buttons" class="btn-container">
+            <button class="btn"></button>
+            <button class="btn"></button>
+            <button class="btn"></button>
+            <button class="btn"></button>
+        </div>
+        <button id="next-button" class="hide next-question-btn" onclick="nextQuestion()">Próxima Pergunta</button>
+    </div>
+  </div>
+  
+    <script src="assets/JavaScript/hard.js">
+        
+    </script>
+</body>
+</html>

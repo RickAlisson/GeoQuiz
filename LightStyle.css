@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  
+  font-family: Poppins;
+  box-sizing: border-box;
+}
+
+#loading {
+  width: 100vw;
+  height: 100vh;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#loading h1 {
+  font-size: 35px;
+}
+
+body {
+  width: 100vw;
+  max-height: 100vh;
+}
+
+.pontuation {
+  display: flex;
+}
+
+#quiz-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.pontos {
+  position: absolute;
+  top: 2em;
+  left: 2em;
+}
+
+h1 {
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+
+#question-container {
+  width: 100vw;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.flag-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.flag {
+  width: 270px;
+  height: auto;
+  
+  margin: -50px 0px;
+}
+
+#answer-buttons {
+  width: 100vw;
+  height: 55vh;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  place-items: center;
+  padding: 10px;
+  padding-top: 0px;
+  
+}
+
+.btn {
+  color: white;
+  background-color: #121214;
+  
+  width: 270px;
+  height: 180px;
+  
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  margin: 20px 0px;
+  
+  font-size: 20px;
+}
+
+.restart-btn {
+  width: 150px;
+  height: 100px;
+}
+
+.lost-page {
+  width: 100vw;
+  height: 100vh;
+}
+
+.btn:active {
+  background-color: #272727;
+}
+
+.green {
+  background-color: green;
+}
+
+.hide {
+  display: none;
+}
+
+.center {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
