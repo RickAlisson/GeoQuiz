@@ -154,7 +154,7 @@ function showFlag(question) {
   const correctAnswerText = correctAnswer.text.toLowerCase()
 
 
-  const imgSrc = `/assets/images/${correctAnswerText}.png`;
+  const imgSrc = `../${correctAnswerText}.png`;
 
 
   document.querySelector(".flag-container").innerHTML = `
